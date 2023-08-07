@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nowsin A professional Graphics Designer</title>
+
+    <!-- tailwindcss link -->
+    <link rel="stylesheet" href="output.css">
+    <!-- fontawsome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <!-- data aos animation --><link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- jquery cdn link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js" integrity="sha512-tQQXRDB2wEmuJGtFrmmoFYzNTq8StA1XJrfO0OQbbTxd9G0CwaTDL6/C1y805IlvBVrMwOqob1kf6r/2U5XXVg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.1.0/swiper-bundle.css" integrity="sha512-xXQQj99PFpHikerkvc6HrA+dFLC14dMyBh0eL8fCan9h3n8Uhxvq5Os8ysEvn3oTLWJTte9kl5FFEftf2KfyHA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.1.0/swiper-bundle.min.js" integrity="sha512-4Ooh3fl4STrmn95ZbS/J6l8csp/FvSKPaeDAH/IaPQGJIx9lmpuxXZTCYKR2W5+Bt7i74exPvAT2PsWnac+sow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <style>
+        *{
+            font-family: 'Roboto', sans-serif;
+            box-sizing: border-box;
+        }
+        .banner-bg {
+            background: url(../dist/images/banner.avif);
+            min-height: 90vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+           
+        }
+        .shadow-2xl.bg-pink-500.p-5.rounded-lg {
+    background: #150f2d;
+}
+.opactity{
+    opacity: 1 !important;
+    transform: all 1s;
+}
+    </style>
+</head>
+<body class="bg-[#010313] text-[#eee0ff] px-4 lg:px-0">
+   <header class="relative">
+        <div class="container mx-auto ">
+            <nav class="flex fixed z-50 bg-[#010313] px-5 top-0 left-0 right-0 items-center justify-between py-3 ">
+                <div class="logo">
+                    <span class="text-[#eee0ff] font-bold text-2xl">Nowsin</span>
+                </div>
+
+                <!-- all nav link is here -->
+                <div id="nav_content" class="transform absolute flex items-center justify-center top-14 opacity-0 left-0 min-h-screen bg-[#010313] text-white gap-8 w-full flex-col lg:relative lg:top-0 lg:left-0 lg:opacity-100 lg:block lg:min-h-fit lg:items-center lg:justify-center lg:flex-row lg:w-fit">
+                    <a class="text-lg hover:text-indigo-500 ease-in duration-200 font-medium lg:ml-10" href="#home">Home</a>
+                    <a class="text-lg font-medium hover:text-indigo-500 ease-in duration-200 lg:ml-10" href="#home">About</a>
+                    <a class="text-lg hover:text-indigo-500 ease-in duration-200 font-medium lg:ml-10" href="#home">Services</a>
+                    <a class="text-lg hover:text-indigo-500 ease-in duration-200 font-medium lg:ml-10" href="#home">Project</a>
+                    <a class="text-lg hover:text-indigo-500 ease-in duration-200 font-medium lg:ml-10" href="#home">Contact</a>
+                </div>
+                  <!-- all nav link is end -->
+
+                  <!-- email link is here -->
+                  <div class="hidden lg:block">
+                    <span class="flex items-center gap-2"><i class="fa-solid text-2xl cursor-pointer ease-in duration-300 hover:scale-150 text-pink-500 fa-envelope"></i> <a class="text-sky-300" href="mailto:nowsinakter@gmail.com"> nowsinakter@gmail.com</a></span>
+                  </div>
+                  <!-- email link is end -->
+                  <!-- bar icon/// -->
+                  <div id="bar" class="block lg:hidden cursor-pointer">
+                    <i class="fa-solid text-2xl fa-bars"></i>
+                  </div>
+
+            </nav>
+        </div>
+
+        <!-- hero banner section start here -->
+        <!-- hero banner section start here -->
+        <section class="banner-bg ">
+            <div class="container mx-auto">
+                <div  class="min-h-screen flex items-center justify-center">
+                    <div class="w-2/4 mx-auto text-center">
+                        <h4 class="text-2xl font-bold tracking-wider">Hello World</h4>
+                        <h2 class="text-3xl tracking-wide lg:text-6xl font-bold text-[#010313]">I'm a professional <br><span  class="text-white font-extrabold" id="mytitle"></span></h2>
+                       
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- hero banner section ends here -->
+        <!-- hero banner section ends here -->
+   </header>
+
+   <!-- main section satrt here -->
+   <main>
+     <!-- about sesction start here -->
+     <!-- about sesction start here -->
+     <section class="py-24">
+        <div class="container mx-auto">
+            <div class="grid lg:grid-cols-2  gap-8"  data-aos="fade-up"
+            data-aos-duration="1000">
+                <div>
+                   <div>
+                    <h3 class="min-[420px]:text-5xl text-3xl font-bold mb-5">About Me</h3>
+                    <p class="text-xl mb-6">I’m Nowsin, an expert graphic designer with 4+ years of experience. Specializing in Adobe Photoshop, Adobe Illustrator, Adobe InDesign, and Adobe XD. I can design logos, t-shirt designs, banners, thumbnails, web banners, social media post designs, business card designs, flyer designs, brochure designs, product packaging designs, photo editing, retouching, manipulation, web templates,
+                        magazine designs, etc.</p>
+                    
+                    <a download href="../images/Nowsin_Akter-1.pdf">
+                        <button class="bg-gradient-to-r from-purple-500 to-pink-500 px-12 rounded-md py-3 font-medium mb-5 hover:from-pink-500 hover:to-purple-500" >Download CV</button>
+                    </a>
+                   </div>
+                   <div>
+                    <h3 class="text-3xl font-bold border-b-2 border-yellow-700 w-56 mb-4">Education</h3>
+                   
+                     <div class="mb-4">
+                        <p class="text-lg font-medium mb-2">Diploma In Engineering</p>
+                        <p class="text-yellow-300">2019-2023</p>
+                        <p>My One of life changing moment is here. I got my best think here</p>
+                     </div>
+                     <div>
+                        <p class="text-lg font-medium mb-2">SSC</p>
+                        <p class="text-yellow-300">2018-2019</p>
+                        <p>My One of life changing moment is here. I got my best think here</p>
+                     </div>
+                   </div>
+
+                </div>
+                <div class="flex items-center justify-center lg:items-end  lg:justify-end">
+                    <img class="max-w-lg w-full max-h-lg rounded-3xl" src="https://scontent.fdac24-2.fna.fbcdn.net/v/t39.30808-6/331049605_1257236024872709_1346026716925201747_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=174925&_nc_eui2=AeFAoJIXrlpIp5eXRbYQ6w9lYYG-mXMx9iphgb6ZczH2KvSo8bqgur9RLthVYS1sxgNg_wmy3sgfFTybyYsDM3TY&_nc_ohc=YDo01oginpoAX-z0GhF&_nc_pt=1&_nc_ht=scontent.fdac24-2.fna&oh=00_AfA7PvKKO-SipUW6dEXP2QS4PanZBX2bDbE_H6WaFG9eWw&oe=64D2C8FE" alt="">
+                </div>
+            </div>
+        </div>
+     </section>
+     <!-- about sesction ends here -->
+     <!-- about sesction ends here -->
+
+
+     <!-- services section start here -->
+     <!-- services section start here -->
+     <section class="py-24">
+        <div class="container mx-auto">
+            <h2 class="min-[420px]:text-5xl text-3xl text-center font-bold mb-5">What I'm Doing</h2>
+            <div class="w-44 h-1 bg-gradient-to-r from-purple-500 to-pink-500 mx-auto"></div>
+
+            <!-- i am do this work -->
+            <div data-aos="fade-up"
+            data-aos-duration="900" id="hardSkillContainer" class=" text-center grid min-[420px]:grid-cols-2 lg:grid-cols-4 gap-8 mt-16">
+                <!-- dynamic hardskill  -->
+            </div>
+        </div>
+     </section>
+     <!-- services section edns here -->
+     <!-- services section ends here -->
+
+
+     <!-- why choose me in your work section start here -->
+     <section class="py-24">
+        <div class="container mx-auto">
+            <h2 class="min-[420px]:text-5xl text-3xl text-center font-bold mb-5">Why Choose Me</h2>
+            <div class="w-44 h-1 bg-gradient-to-r from-purple-500 to-pink-500 mx-auto"></div>
+
+            <div data-aos="fade-up"
+            data-aos-duration="900" class="grid lg:grid-cols-2 gap-8 lg:gap-56 mt-12">
+                <div >
+                    <h4 class="text-xl font-medium mb-10">Professional Graphic Design:</h4>
+
+                   
+                        <div class="mb-3 flex gap-5 items-center p-3 rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 ">
+                            <div><img src="./images/adobe 1.png" class="w-6" alt=""></div>
+                            <h3 class="text-base sm:text-lg font-medium text-[#010313]">Adobe Illustrator <span class="ml-2 text-white"><sub>Expert</sub></span></h3>
+                        </div>
+
+                         <div class="mb-3 flex gap-5 items-center p-3 rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 ">
+                            <div><img src="./images/adobe 1.png" class="w-6" alt=""></div>
+                            <h3 class="text-base sm:text-lg font-medium text-[#010313]">Adobe Photoshop <span class="ml-2 text-white"><sub>Expert</sub></span></h3>
+                        </div>
+                        <div class="mb-3 flex gap-5 items-center p-3 rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 ">
+                            <div><img src="./images/adobe 1.png" class="w-6" alt=""></div>
+                            <h3 class="text-base sm:text-lg font-medium text-[#010313]">Adobe InDesign <span class="ml-2 text-white"><sub>Expert</sub></span></h3>
+                        </div>
+                        <div class="mb-3 flex gap-5 items-center p-3 rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 ">
+                            <div><img src="./images/adobe 1.png" class="w-6" alt=""></div>
+                            <h3 class="text-base sm:text-lg font-medium text-[#010313]">Adobe XD <span class="ml-2 text-white"><sub>Expert</sub></span></h3>
+                        </div>
+                        <div class="mb-3 flex gap-5 items-center p-3 rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 ">
+                            <div><img src="./images/adobe 1.png" class="w-6" alt=""></div>
+                            <h3 class="text-base sm:text-lg font-medium text-[#010313]">PowerPoint Presentation<span class="ml-2 text-white"><sub>Expert</sub></span></h3>
+                        </div>
+                        <div class="mb-3 flex gap-5 items-center p-3 rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 ">
+                            <div><img src="./images/adobe 1.png" class="w-6" alt=""></div>
+                            <h3 class="text-base sm:text-lg font-medium text-[#010313]">Freelancing marketplaces <span class="ml-2 text-white"><sub>Expert</sub></span></h3>
+                        </div>
+                   
+                </div>
+                <div>
+                    <h4 class="text-xl font-medium mb-10">I'm always do this !</h4>
+                    <div class="mb-3 flex gap-5 items-center p-3 rounded-lg bg-gradient-to-r from-pink-500 to-purple-500 ">
+                        <h3 class="text-base sm:text-lg font-medium text-[#010313]"><span class="text-white">01.</span> Highly Experienced Designer</h3>
+                    </div>
+
+                    <div class="mb-3 flex gap-5 items-center p-3 rounded-lg bg-gradient-to-r from-pink-500 to-purple-500 ">
+                        <h3 class="text-base sm:text-lg font-medium text-[#010313]"><span class="text-white">02.</span> Quick Delivery</h3>
+                    </div>
+
+                    <div class="mb-3 flex gap-5 items-center p-3 rounded-lg bg-gradient-to-r from-pink-500 to-purple-500 ">
+                        <h3 class="text-base sm:text-lg font-medium text-[#010313]"><span class="text-white">03.</span> Reliable and Quick Communication</h3>
+                    </div>
+
+                    <div class="mb-3 flex gap-5 items-center p-3 rounded-lg bg-gradient-to-r from-pink-500 to-purple-500 ">
+                        <h3 class="text-base sm:text-lg font-medium text-[#010313]"><span class="text-white">04.</span> Long term support</h3>
+                    </div>
+
+                    <div class="mb-3 flex gap-5 items-center p-3 rounded-lg bg-gradient-to-r from-pink-500 to-purple-500 ">
+                        <h3 class="text-base sm:text-lg font-medium text-[#010313]"><span class="text-white">05.</span> 100% Money Back Guaranteed</h3>
+                    </div>
+                    <div class="mb-3 flex gap-5 items-center p-3 rounded-lg bg-gradient-to-r from-pink-500 to-purple-500 ">
+                        <h3 class="text-base sm:text-lg font-medium text-[#010313]"><span class="text-white">05.</span> Knowledge of communication with clients</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+     <!-- why choose me in your work section ends here -->
+
+
+     <!-- project secion start here -->
+     <section class="py-24">
+        <div class="container mx-auto">
+            <h2 class="min-[420px]:text-5xl text-3xl text-center font-bold mb-5">My Work</h2>
+            <div class="w-44 h-1 bg-gradient-to-r from-purple-500 to-pink-500 mx-auto"></div>
+
+            <!-- my works  -->
+            <div data-aos="fade-up"
+            data-aos-duration="900" class="grid lg:grid-cols-3 gap-8 mt-12">
+                <div class="bg-[#b6b5b4]">
+                    <img src="../dist/images/tshirt-2.jpg" alt="">
+                </div>
+
+                <div class="bg-[#b6b5b4]">
+                    <img src="../dist/images/tshirt-2.jpg" alt="">
+                </div>
+
+                <div class="bg-[#b6b5b4]">
+                    <img src="../dist/images/tshirt-2.jpg" alt="">
+                </div>
+
+
+
+            </div>
+           
+        </div>
+     </section>
+     <!-- project secion ends here -->
+     
+     <!-- my team sction here -->
+     <section class="py-24">
+        <div class="container mx-auto">
+            <h2 class="min-[420px]:text-5xl text-3xl text-center font-bold mb-5">My Team</h2>
+            <div class="w-44 h-1 bg-gradient-to-r from-purple-500 to-pink-500 mx-auto"></div>
+
+           <div data-aos="fade-up"
+           data-aos-duration="900" id="teamContainer" class="grid md:grid-cols-4 gap-8 mt-12 ">
+               <!-- show here dynamically team member        -->
+               
+           </div>
+            
+        </div>
+     </section>
+     <!-- my team secton end here -->
+
+
+
+     <!-- whats clients says section start -->
+     <section class="py-24">
+        <div class="container mx-auto">
+            <h2 class="min-[420px]:text-5xl text-3xl text-center font-bold mb-5">What Client Says</h2>
+            <div class="w-44 h-1 bg-gradient-to-r from-purple-500 to-pink-500 mx-auto"></div>
+
+            <!-- i am do this work -->
+             <div data-aos="fade-up"
+             data-aos-duration="900" class="lg:w-3/5 mx-auto mt-12 rounded p-5 border-2 border-white">
+                <div class="swiper  ">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper  py-5">
+                      <!-- Slides -->
+                      <div class="swiper-slide p-5">
+                        <div class="flex items-center mb-5 gap-5">
+                            <div>
+                                <img class="w-12 h-12 rounded-full" src="./images/olden.jfif" alt="">
+                            </div>
+                            <div>
+                                <h4 lang="text-lg font-medium">Olden Thomas</h4>
+                                <p class="text-sm">Business Man</p>
+                            </div>
+                        </div>
+                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste explicabo modi nemo odit nostrum obcaecati mollitia temporibus a amet placeat tempore hic, ap"</p>
+                      </div>
+
+
+                        <div class="swiper-slide p-5">
+                        <div class="flex items-center mb-5 gap-5">
+                            <div>
+                                <img class="w-12 h-12 rounded-full" src="./images/olden.jfif" alt="">
+                            </div>
+                            <div>
+                                <h4 lang="text-lg font-medium">Olden Thomas</h4>
+                                <p class="text-sm">Business Man</p>
+                            </div>
+                        </div>
+                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste explicabo modi nemo odit nostrum obcaecati mollitia temporibus a amet placeat tempore hic, ap"</p>
+                      </div>
+
+                        <div class="swiper-slide p-5">
+                        <div class="flex items-center mb-5 gap-5">
+                            <div>
+                                <img class="w-12 h-12 rounded-full" src="./images/olden.jfif" alt="">
+                            </div>
+                            <div>
+                                <h4 lang="text-lg font-medium">Olden Thomas</h4>
+                                <p class="text-sm">Business Man</p>
+                            </div>
+                        </div>
+                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste explicabo modi nemo odit nostrum obcaecati mollitia temporibus a amet placeat tempore hic, ap"</p>
+                      </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                  
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                  
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
+                  </div>
+             </div>
+        </div>
+     </section>
+     <!-- whats clients says section end -->
+   
+
+    <!-- contact section start here -->
+    <section class="py-24">
+        <div class="container mx-auto">
+            <h2 class="min-[420px]:text-5xl text-3xl text-center font-bold mb-5">Contact With Me</h2>
+            <div class="w-44 h-1 bg-gradient-to-r from-purple-500 to-pink-500 mx-auto"></div>
+
+            <div data-aos="fade-up"
+            data-aos-duration="900" class="grid lg:grid-cols-2 gap-8 mt-12">
+                <div>
+                    <h4 class="text-pink-500 text-center text-3xl lg:text-left lg:text-9xl font-medium">GET IN TOUCH</h4>
+                   
+                </div>
+                <div>
+                    <form>
+                        <div class="flex gap-3 justify-between">
+                            <div class="flex-1">
+                                <label class="text-lg font-medium" for="name">Name</label>
+                                <input placeholder="write your name" class="w-full px-2 py-2 rounded-lg border-2 border-pink-500 text-sm bg-transparent mb-5" type="text" id="name" name="name">
+                            </div>
+                            <div class="flex-1">
+                                <label class="text-lg font-medium" for="subject">Subject</label>
+                                <input placeholder="write your subject" class="w-full px-2 py-2 rounded-lg border-2 border-pink-500 text-sm bg-transparent mb-5" type="text" id="subject" name="subject">
+                            </div>
+                        </div>
+                        <label class="text-lg font-medium" for="email">Email</label>
+                         <input placeholder="write your email address" class="w-full px-2 py-2 rounded-lg border-2 border-pink-500 text-sm bg-transparent mb-5" type="email" id="email" name="email">
+                       
+                        <label class="text-lg font-medium" for="message">Message</label>
+                        <textarea placeholder="Message" class="w-full px-2 py-2 rounded-lg border-2 border-pink-500 bg-transparent mb-5 text-sm" name="message" id="message" cols="30" rows="10"></textarea>
+                        <button class="bg-gradient-to-r from-purple-500 to-pink-500 h-12 px-12 text-lg font-medium rounded-sm">Submit</button>
+                    </form>
+                </div>
+            </div>
+           
+        </div>
+     </section>
+
+
+
+     <!-- footer section start here -->
+
+   </main>
+   <footer class="py-3 pt-16">
+    <div class="container mx-auto">
+        <div data-aos="fade-up"
+        data-aos-duration="900" class="grid lg:grid-cols-3 gap-8">
+            <div>
+                <h3 class="text-xl font-medium mb-5">Nowsin </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quisquam ullam saepe ex sequi explicabo ratione voluptatibus inventore vero. Similique veniam dolore sit!</p>
+                <div class="flex gap-4 mt-6">
+                    <a href="">
+                        <div class="bg-[#2b1b42] p-2 px-3 rounded-lg"><i class="fa-brands text-xl fa-facebook"></i></div>
+                    </a>
+                    <a href="">
+                        <div class="bg-[#2b1b42] p-2 px-3 rounded-lg"><i class="fa-brands text-xl fa-linkedin"></i></div>
+                    </a>
+                    <a href="">
+                        <div class="bg-[#2b1b42] p-2 px-3 rounded-lg"><i class="fa-brands text-xl fa-behance"></i></div>
+                    </a>
+                    <a href="">
+                        <div class="bg-[#2b1b42] p-2 px-3 rounded-lg"><i class="fa-brands text-xl  fa-instagram"></i></div>
+                    </a>
+                    <a href="">
+                        <div class="bg-[#2b1b42] p-2 px-3 rounded-lg"><i class="fa-brands text-xl fa-whatsapp"></i></div>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="flex gap-8">
+                <div>
+                    <h3 class="text-xl font-medium mb-5">Service</h3>
+                        <div>
+                            <p class="text-base">Adobe Illustrator</p>
+                            <p class="text-base">Adobe Photoshop</p>
+                            <p class="text-base">Adobe InDesign</p>
+                            <p class="text-base">Adobe XD</p>
+                        </div>
+                </div>
+                <div>
+                    <h3 class="text-xl font-medium mb-5">Social Service</h3>
+                        <div>
+                            <p class="text-base">Linkedin Banner</p>
+                            <p class="text-base">Facebook Banner</p>
+                            <p class="text-base">Youtube Banner</p>
+                            <p class="text-base">PowerPoint Presentation</p>
+                            <p class="text-base">Freelancing marketplaces </p>
+                        </div>
+                </div>
+            </div>
+            <div class="">
+                <h3 class="text-xl font-medium mb-5">GET IN TOUCH</h3>
+                 <div>
+                   <a target="_blank" href="https://goo.gl/maps/ndfZP2jmU13GoE6PA">
+                    <p class="mb-2"><i class="fa-solid text-pink-500 fa-location-dot"></i> <span class="ml-3">Rangpur Bangladesh</span></p>
+                   </a>
+                    <a href="0133243145">
+                        <p class="mb-2"><i class="fa-solid text-pink-500 fa-phone"></i> <span class="ml-3">0198878352934792</span></p>
+                    </a>
+                    <a href="mailto:nowsinakter@gmail.com">
+                        <p class="mb-2"><i class="fa-solid text-pink-500 fa-envelope"></i> <span class="ml-3">nowsinakter@gmail.com</span></p>
+                    </a>
+                 </div>
+            </div>
+        </div>
+        <p class="text-center text-base pt-6">Copyright © 2022 FORHAD. All Rights Reserved.</p>
+    </div>
+ </footer>
+ <!-- footer section ends here -->
+   <!-- main section edns here -->
+   
+   
+ 
+   <script src="./js/swiper.js"></script>
+   <script src="./js/service.js"></script>
+   <script src="../dist/js/team/team.js"></script>
+   <script src='./js/main.js'></script>
+
+   <!-- data aos animation js -->
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+    AOS.init();
+  </script>
+   
+</body>
+</html>
