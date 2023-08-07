@@ -27,6 +27,6 @@ const Member = [
         id:5,
         name:"Md. Firoz Hossain",
         job:'Graphics Designer',
-        image:'./images/fiz.png'
+        image:'/dist/images/fiz.png'
     }
 ]
