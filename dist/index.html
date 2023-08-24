@@ -13,8 +13,8 @@
 
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <!-- jquery cdn link -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js" integrity="sha512-tQQXRDB2wEmuJGtFrmmoFYzNTq8StA1XJrfO0OQbbTxd9G0CwaTDL6/C1y805IlvBVrMwOqob1kf6r/2U5XXVg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -23,7 +23,9 @@
 
     <style>
         *{
-            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
             box-sizing: border-box;
         }
         .banner-bg {
@@ -33,12 +35,25 @@
             background-size: cover;
            
         }
+        img.w-32.mx-auto.border-2.border-pink-500.mb-3.h-32.rounded-full {
+            width: 123px;
+            height: 123px;
+        }
         .shadow-2xl.bg-pink-500.p-5.rounded-lg {
-    background: #150f2d;
+        background: #150f2d;
 }
-.opactity{
-    opacity: 1 !important;
-    transform: all 1s;
+            .opactity{
+                opacity: 1 !important;
+                transform: all 1s;
+            }
+            div#popup {
+            transform: translate(-50%,-50%);
+}
+.project{
+    display: none;
+}
+.project:nth-child(1),.project:nth-child(2),.project:nth-child(3),.project:nth-child(4),.project:nth-child(5),.project:nth-child(6),.project:nth-child(7),.project:nth-child(8),.project:nth-child(9),.project:nth-child(10),.project:nth-child(11),.project:nth-child(12),.project:nth-child(13),.project:nth-child(14),.project:nth-child(15),.project:nth-child(16),.project:nth-child(17),.project:nth-child(18),.project:nth-child(19),.project:nth-child(20),.project:nth-child(21){
+    display: block;
 }
     </style>
 </head>
@@ -53,10 +68,10 @@
                 <!-- all nav link is here -->
                 <div id="nav_content" class="transform absolute flex items-center justify-center top-14 opacity-0 left-0 min-h-screen bg-[#010313] text-white gap-8 w-full flex-col lg:relative lg:top-0 lg:left-0 lg:opacity-100 lg:block lg:min-h-fit lg:items-center lg:justify-center lg:flex-row lg:w-fit">
                     <a class="text-lg hover:text-indigo-500 ease-in duration-200 font-medium lg:ml-10" href="#home">Home</a>
-                    <a class="text-lg font-medium hover:text-indigo-500 ease-in duration-200 lg:ml-10" href="#home">About</a>
-                    <a class="text-lg hover:text-indigo-500 ease-in duration-200 font-medium lg:ml-10" href="#home">Services</a>
-                    <a class="text-lg hover:text-indigo-500 ease-in duration-200 font-medium lg:ml-10" href="#home">Project</a>
-                    <a class="text-lg hover:text-indigo-500 ease-in duration-200 font-medium lg:ml-10" href="#home">Contact</a>
+                    <a class="text-lg font-medium hover:text-indigo-500 ease-in duration-200 lg:ml-10" href="#about">About</a>
+                    <a class="text-lg hover:text-indigo-500 ease-in duration-200 font-medium lg:ml-10" href="#service">Services</a>
+                    <a class="text-lg hover:text-indigo-500 ease-in duration-200 font-medium lg:ml-10" href="#project">Project</a>
+                    <a class="text-lg hover:text-indigo-500 ease-in duration-200 font-medium lg:ml-10" href="#contact">Contact</a>
                 </div>
                   <!-- all nav link is end -->
 
@@ -94,7 +109,7 @@
    <main>
      <!-- about sesction start here -->
      <!-- about sesction start here -->
-     <section class="py-24">
+     <section id="about" class="py-24">
         <div class="container mx-auto">
             <div class="grid lg:grid-cols-2  gap-8"  data-aos="fade-up"
             data-aos-duration="1000">
@@ -125,7 +140,41 @@
 
                 </div>
                 <div class="flex items-center justify-center lg:items-end  lg:justify-end">
-                    <img class="max-w-lg w-full max-h-lg rounded-3xl" src="https://scontent.fdac24-2.fna.fbcdn.net/v/t39.30808-6/331049605_1257236024872709_1346026716925201747_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=174925&_nc_eui2=AeFAoJIXrlpIp5eXRbYQ6w9lYYG-mXMx9iphgb6ZczH2KvSo8bqgur9RLthVYS1sxgNg_wmy3sgfFTybyYsDM3TY&_nc_ohc=YDo01oginpoAX-z0GhF&_nc_pt=1&_nc_ht=scontent.fdac24-2.fna&oh=00_AfA7PvKKO-SipUW6dEXP2QS4PanZBX2bDbE_H6WaFG9eWw&oe=64D2C8FE" alt="">
+                    <img class="max-w-lg w-full max-h-lg rounded-3xl" src="./images/fiz.png" alt="">
+                </div>
+            </div>
+
+            <!-- achievment  -->
+            <div class="mt-12">
+                <h4 class="text-3xl font-bold border-b-2 border-yellow-700 w-56 mb-4">Achievment</h4>
+                <div class="grid grid-cols-8 gap-8">
+                   
+                    
+                    <div>
+                        <img class="w-96" src="./images/cartificate.png" alt="">
+                    </div>
+                    <div>
+                        <img class="w-96" src="./images/cartificate.png" alt="">
+                    </div>
+                    <div>
+                        <img class="w-96" src="./images/cartificate.png" alt="">
+                    </div>
+                    <div>
+                        <img class="w-96" src="./images/cartificate.png" alt="">
+                    </div>
+                    <div>
+                        <img class="w-96" src="./images/cartificate.png" alt="">
+                    </div>
+                    <div>
+                        <img class="w-96" src="./images/cartificate.png" alt="">
+                    </div>
+                    <div>
+                        <img class="w-96" src="./images/cartificate.png" alt="">
+                    </div>
+                    <div>
+                        <img class="w-96" src="./images/cartificate.png" alt="">
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -136,7 +185,7 @@
 
      <!-- services section start here -->
      <!-- services section start here -->
-     <section class="py-24">
+     <section id="service" class="py-24">
         <div class="container mx-auto">
             <h2 class="min-[420px]:text-5xl text-3xl text-center font-bold mb-5">What I'm Doing</h2>
             <div class="w-44 h-1 bg-gradient-to-r from-purple-500 to-pink-500 mx-auto"></div>
@@ -162,27 +211,26 @@
             data-aos-duration="900" class="grid lg:grid-cols-2 gap-8 lg:gap-56 mt-12">
                 <div >
                     <h4 class="text-xl font-medium mb-10">Professional Graphic Design:</h4>
-
                    
                         <div class="mb-3 flex gap-5 items-center p-3 rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 ">
-                            <div><img src="./images/adobe 1.png" class="w-6" alt=""></div>
+                            <div><img src="./images/adobeillustrator.png" class="w-6" alt=""></div>
                             <h3 class="text-base sm:text-lg font-medium text-[#010313]">Adobe Illustrator <span class="ml-2 text-white"><sub>Expert</sub></span></h3>
                         </div>
 
                          <div class="mb-3 flex gap-5 items-center p-3 rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 ">
-                            <div><img src="./images/adobe 1.png" class="w-6" alt=""></div>
+                            <div><img src="./images/adobephotoshop.png" class="w-6" alt=""></div>
                             <h3 class="text-base sm:text-lg font-medium text-[#010313]">Adobe Photoshop <span class="ml-2 text-white"><sub>Expert</sub></span></h3>
                         </div>
                         <div class="mb-3 flex gap-5 items-center p-3 rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 ">
-                            <div><img src="./images/adobe 1.png" class="w-6" alt=""></div>
+                            <div><img src="./images/adobeindesign.png" class="w-6" alt=""></div>
                             <h3 class="text-base sm:text-lg font-medium text-[#010313]">Adobe InDesign <span class="ml-2 text-white"><sub>Expert</sub></span></h3>
                         </div>
                         <div class="mb-3 flex gap-5 items-center p-3 rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 ">
-                            <div><img src="./images/adobe 1.png" class="w-6" alt=""></div>
+                            <div><img src="./images/adobexd.png" class="w-6" alt=""></div>
                             <h3 class="text-base sm:text-lg font-medium text-[#010313]">Adobe XD <span class="ml-2 text-white"><sub>Expert</sub></span></h3>
                         </div>
                         <div class="mb-3 flex gap-5 items-center p-3 rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 ">
-                            <div><img src="./images/adobe 1.png" class="w-6" alt=""></div>
+                            <div><img src="./images/powerpoint.png" class="w-6" alt=""></div>
                             <h3 class="text-base sm:text-lg font-medium text-[#010313]">PowerPoint Presentation<span class="ml-2 text-white"><sub>Expert</sub></span></h3>
                         </div>
                         <div class="mb-3 flex gap-5 items-center p-3 rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 ">
@@ -223,30 +271,30 @@
 
 
      <!-- project secion start here -->
-     <section class="py-24">
+     <section id="project" class="py-24">
         <div class="container mx-auto">
             <h2 class="min-[420px]:text-5xl text-3xl text-center font-bold mb-5">My Work</h2>
             <div class="w-44 h-1 bg-gradient-to-r from-purple-500 to-pink-500 mx-auto"></div>
-
-            <!-- my works  -->
-            <div data-aos="fade-up"
-            data-aos-duration="900" class="grid lg:grid-cols-3 gap-8 mt-12">
-                <div class="bg-[#b6b5b4]">
-                    <img src="./images/tshirt-2.jpg" alt="">
+            
+            <div class="mt-12">
+                <div class="grid grid-cols-12 gap-8">
+                    <div class="col-span-2">
+                        <div class="grid gap-2 " id="mainButton">
+                        
+                        </div>
+                    </div>
+                       
+                
+                    <!-- my works  -->
+                    <div class="col-span-10">
+                        <div  data-aos="fade-up"
+                        data-aos-duration="900" class="grid lg:grid-cols-7 gap-8 " id="allWork">
+            
+                        </div>
+                        <button id="showAllBtn" class="bg-pink-500 px-4 py-2 font-medium text-center mx-auto block mt-20">Show All</button>
+                    </div>
                 </div>
-
-                <div class="bg-[#b6b5b4]">
-                    <img src="./images/tshirt-2.jpg" alt="">
-                </div>
-
-                <div class="bg-[#b6b5b4]">
-                    <img src="./images/tshirt-2.jpg" alt="">
-                </div>
-
-
-
-            </div>
-           
+        </div>
         </div>
      </section>
      <!-- project secion ends here -->
@@ -268,6 +316,7 @@
      <!-- my team secton end here -->
 
 
+  
 
      <!-- whats clients says section start -->
      <section class="py-24">
@@ -337,9 +386,31 @@
      </section>
      <!-- whats clients says section end -->
    
+     <!-- recent works -->
+     <section class="py-24 relative">
+        <div class="container mx-auto ">
+            <h2 class="min-[420px]:text-5xl text-3xl text-center font-bold mb-5">Recent Works</h2>
+            <div class="w-44 h-1 bg-gradient-to-r from-purple-500 to-pink-500 mx-auto"></div>
 
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-12" id="recentWorkContainer">
+               
+            </div>
+            
+        </div>
+        <div id="popcontainer" >
+            <div data-aos="zoom-in" id="popup"  class="hidden fixed py-8 top-[50%] left-[50%] transform-[translate (-50%,-50%)] w-1/3 mx-auto text-center text-[#010313] bg-white shadow-lg p-4 rounded-lg">
+                
+                    <img id="img" class="w-32" src="" alt="hfjsa">
+                    <h4 id="p_name"></h4>
+                    <h4 id="p_text"></h4>
+                    <h4 id="p_job"></h4>
+                    <button id="closebtn" class=" py-1 px-2 rounded-tr-lg   font-medium text-white  absolute top-0 right-0"><i class="fa-solid fa-xmark text-[#010313] text-2xl"></i></button>
+                
+            </div>
+        </div>
+     </section>
     <!-- contact section start here -->
-    <section class="py-24">
+    <section id="contact" class="py-24">
         <div class="container mx-auto">
             <h2 class="min-[420px]:text-5xl text-3xl text-center font-bold mb-5">Contact With Me</h2>
             <div class="w-44 h-1 bg-gradient-to-r from-purple-500 to-pink-500 mx-auto"></div>
@@ -351,7 +422,7 @@
                    
                 </div>
                 <div>
-                    <form>
+                    <form id="contactform">
                         <div class="flex gap-3 justify-between">
                             <div class="flex-1">
                                 <label class="text-lg font-medium" for="name">Name</label>
@@ -367,7 +438,7 @@
                        
                         <label class="text-lg font-medium" for="message">Message</label>
                         <textarea placeholder="Message" class="w-full px-2 py-2 rounded-lg border-2 border-pink-500 bg-transparent mb-5 text-sm" name="message" id="message" cols="30" rows="10"></textarea>
-                        <button class="bg-gradient-to-r from-purple-500 to-pink-500 h-12 px-12 text-lg font-medium rounded-sm">Submit</button>
+                        <button id="submit" class="bg-gradient-to-r from-purple-500 to-pink-500 h-12 px-12 text-lg font-medium rounded-sm" action="mailto:forhadhossain0619@gmail.com" method="post">Submit</button>
                     </form>
                 </div>
             </div>
@@ -448,12 +519,28 @@
  </footer>
  <!-- footer section ends here -->
    <!-- main section edns here -->
+
+   <a href="#" class=""><div class="absolute right-0 bottom-0 ">
+    <div class="bg-pink-500 text-black py-2 rounded-md cursor-pointer px-4 font-medium">
+        <i class="fa-solid text-3xl fa-caret-up"></i>
+    </div>
+</div></a>
    
-   
- 
+   <script>
+  $(document).ready(function() {
+    $('#sumbit').click(function() {
+        $('#contactform').attr('action',
+                       'mailto:forhadhossain0619@gmail.com?subject=Jeannette Chambliss Digital Portfolio' +
+                       $('#name').val() + '&body=' + $('#email').val() + '&body=' + $('#comments').val() + '&body=');
+        $('#contactform').submit();
+    });
+});
+   </script>
    <script src="./js/swiper.js"></script>
    <script src="./js/service.js"></script>
    <script src="./js/team.js"></script>
+   <script src="./js/recent.js"></script>
+   <script src="./js/work.js"></script>
    <script src='./js/main.js'></script>
 
    <!-- data aos animation js -->
