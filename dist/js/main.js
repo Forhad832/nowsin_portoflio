@@ -174,3 +174,29 @@ document.getElementById('closebtn').addEventListener('click', function(){
     document.getElementById('popup').style.display = 'none';
 })
 recentWorks();
+
+
+const swipperSlider = () =>{
+    document.getElementById('swipper_slider').innerHTML = 
+    clients.map((client)=>{
+        const {id,name,country,text,images} = client;
+        return(
+            
+            `
+            <div class="swiper-slide p-5">
+            <div class="flex items-center mb-5 gap-5">
+                <div>
+                    <img class="w-12 h-12 rounded-full" src="${images}" alt="">
+                </div>
+                <div>
+                    <h4 lang="text-lg font-medium">${name}</h4>
+                    <p class="text-sm">${country}</p>
+                </div>
+            </div>
+            <p>${text}</p>
+          </div>
+            `
+        )
+    }).join(' ')
+};
+swipperSlider()
