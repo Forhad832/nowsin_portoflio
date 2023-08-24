@@ -53,7 +53,8 @@ function categoryButton(btn){
     
     
 
-    allWorkImage(newItems)
+    allWorkImage(newItems);
+    document.getElementById('showAllBtn').style.display = 'none'
 }
 
 Btn()

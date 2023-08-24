@@ -1,12 +1,12 @@
 const works = [
     {
         id:1,
-        category:'illustrator',
+        category:'illustration ',
         image:'./images/Illustration/1-01.jpg'
     },
     {
         id:1,
-        category:'illustrator',
+        category:'illustration ',
         image:'./images/Illustration/1-06.jpg'
     },
     {
@@ -31,7 +31,7 @@ const works = [
     },
     {
         id:1,
-        category:'illustrator',
+        category:'illustration ',
         image:'./images/Illustration/1-07.jpg'
     },
    
@@ -122,43 +122,43 @@ const works = [
     },
     {
         id:1,
-        category:'illustrator',
+        category:'illustration ',
         image:'./images/Illustration/1-02.jpg'
     },
     {
         id:1,
-        category:'illustrator',
+        category:'illustration ',
         image:'./images/Illustration/1-03.jpg'
     },
     {
         id:1,
-        category:'illustrator',
+        category:'illustration ',
         image:'./images/Illustration/1-04.jpg'
     },
     {
         id:1,
-        category:'illustrator',
+        category:'illustration ',
         image:'./images/Illustration/1-05.jpg'
     },
     
     {
         id:1,
-        category:'illustrator',
+        category:'illustration ',
         image:'./images/Illustration/1-08.jpg'
     },
     {
         id:1,
-        category:'illustrator',
+        category:'illustration ',
         image:'./images/Illustration/1-09.jpg'
     },
     {
         id:1,
-        category:'illustrator',
+        category:'illustration ',
         image:'./images/Illustration/1-10.jpg'
     },
     {
         id:1,
-        category:'illustrator',
+        category:'illustration ',
         image:'./images/Illustration/1-11.jpg'
     },
     
