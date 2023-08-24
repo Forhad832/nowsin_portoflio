@@ -41,7 +41,7 @@ const Btn = () =>{
         const newBtn = document.createElement('div');
         newBtn.innerHTML = 
         `
-        <button onclick="categoryButton('${btn}')" class="bg-pink-500 w-full px-5 py-2 rounded-lg" >${btn}</button>
+        <button onclick="categoryButton('${btn}')" class="bg-[#150f2d] w-full px-5 py-2 rounded-lg" >${btn}</button>
         `;
         mainButton.appendChild(newBtn)
     })
