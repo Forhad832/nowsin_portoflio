@@ -112,6 +112,7 @@ showTeamMember();
 
 const recentWorks = () => {
     const recentWorkContainer = document.getElementById('recentWorkContainer');
+   
     recent.map((work)=>{
         const newRecenet = document.createElement('div');
         newRecenet.innerHTML = 
@@ -130,6 +131,7 @@ const recentWorks = () => {
 function aboutMore(id){
    
     document.getElementById('popup').style.display = 'block';
+  
     recent.map((item)=>{
        
         if(item.id === id){
