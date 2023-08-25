@@ -5,6 +5,7 @@
   loop: true,
   autoplay: true,
   autoplayHoverPause:true,
+  duration:5000,
 
   // If we need pagination
   pagination: {

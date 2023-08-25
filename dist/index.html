@@ -55,6 +55,9 @@
 .project:nth-child(1),.project:nth-child(2),.project:nth-child(3),.project:nth-child(4),.project:nth-child(5),.project:nth-child(6),.project:nth-child(7),.project:nth-child(8),.project:nth-child(9),.project:nth-child(10),.project:nth-child(11),.project:nth-child(12),.project:nth-child(13),.project:nth-child(14),.project:nth-child(15),.project:nth-child(16),.project:nth-child(17),.project:nth-child(18),.project:nth-child(19),.project:nth-child(20),.project:nth-child(21){
     display: block;
 }
+button.absolute.bg-neutral-300.px-4.py-2.border-2.border-\[\#150f2d\].top-\[50\%\].left-\[50\%\].text-\[\#150f2d\].flex.items-center.justify-center {
+    transform: translate(-50%,-50%);
+}
     </style>
 </head>
 <body class="bg-[#010313] text-[#eee0ff] px-4 lg:px-0">
@@ -277,7 +280,7 @@
             <div class="w-44 h-1 bg-gradient-to-r from-purple-500 to-pink-500 mx-auto"></div>
             
             <div class="mt-12">
-                <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+                <div class="grid grid-cols-1  md:grid-cols-12 gap-8">
                     <div class="col-span-12 md:col-span-2">
                         <div class="grid gap-2 " id="mainButton">
                         
@@ -288,7 +291,7 @@
                     <!-- my works  -->
                     <div class="col-span-12 md:col-span-10">
                         <div  data-aos="fade-up"
-                        data-aos-duration="900" class="grid lg:grid-cols-7 gap-8 " id="allWork">
+                        data-aos-duration="900" class="grid lg:grid-cols-6 gap-8 " id="allWork">
             
                         </div>
                         <button id="showAllBtn" class="bg-[#150f2d] px-12 py-2 font-medium text-center mx-auto block mt-20">Show All</button>
@@ -359,18 +362,25 @@
             <h2 class="min-[420px]:text-5xl text-3xl text-center font-bold mb-5">Recent Works</h2>
             <div class="w-44 h-1 bg-gradient-to-r from-purple-500 to-pink-500 mx-auto"></div>
 
-            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-12" id="recentWorkContainer">
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-12" id="recentWorkContainer">
                
             </div>
-            
+       
         </div>
         <div id="popcontainer" >
-            <div data-aos="zoom-in" id="popup"  class="hidden fixed py-8 top-[50%] left-[50%] transform-[translate (-50%,-50%)] w-1/3 mx-auto text-center text-[#010313] bg-white shadow-lg p-4 rounded-lg">
+            <div data-aos="zoom-in" id="popup"  class="hidden fixed py-8 top-[50%] left-[50%] transform-[translate (-50%,-50%)] w-2/3 mx-auto text-center text-[#010313] bg-white shadow-lg p-4 rounded-lg">
                 
-                    <img id="img" class="w-32" src="" alt="hfjsa">
-                    <h4 id="p_name"></h4>
-                    <h4 id="p_text"></h4>
-                    <h4 id="p_job"></h4>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div>
+                            <img id="img" class="w-96 h-fit object-contain" src="" alt="hfjsa">
+                        </div>
+                        <div class="mt-12 text-left">
+                            <h4 class="text-xl font-bold text-[#150f2d] mb-4 md:text-3xl" id="p_name" ></h4>
+                            <h4 class="text-xl mb-5" id="p_text"></h4>
+                            <h4 id="p_author" class=""></h4>
+                        </div>
+                    </div>
+                    
                     <button id="closebtn" class=" py-1 px-2 rounded-tr-lg   font-medium text-white  absolute top-0 right-0"><i class="fa-solid fa-xmark text-[#010313] text-2xl"></i></button>
                 
             </div>

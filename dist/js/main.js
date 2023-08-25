@@ -65,9 +65,9 @@ const allWorkImage = (items) =>{
    
     document.getElementById('allWork').innerHTML = 
     items.map((work)=>{
-        return (
-            `<div class='project'> 
-            <img src="${work.image}" alt="project_image">
+        return ( 
+            `<div class='project overflow-hidden'> 
+            <img class='hover:scale-150 transition hover:duration-700 ease-in-out ' src="${work.image}" alt="project_image">
             </div>`
         );
         
@@ -132,10 +132,10 @@ const recentWorks = () => {
         const newRecenet = document.createElement('div');
         newRecenet.innerHTML = 
         `
-        <div class="border-2 border-pink-500 p-8">
+        <div class="p-8 relative h-full w-full ">
         <img  class="w-full" src="${work.img}" alt="recetn-work">
         
-        <button onclick="aboutMore(${work.id})">About More...</button>
+        <button class='absolute bg-neutral-300 px-4 py-2   border-2 border-[#150f2d] top-[50%] left-[50%]  text-[#150f2d] flex items-center justify-center rounded-md' onclick="aboutMore(${work.id})">About More...</button>
         </div>
         `;
         recentWorkContainer.appendChild(newRecenet);
@@ -149,9 +149,9 @@ function aboutMore(id){
        
         if(item.id === id){
            document.getElementById('img').src = item.img;
-           document.getElementById('p_name').innerHTML = item.name;
+           document.getElementById('p_name').innerHTML = item.project;
            document.getElementById('p_text').innerHTML = item.text;
-           document.getElementById('p_job').innerHTML = item.job;
+           document.getElementById('p_author').innerHTML = item.author;
            
         }
     })
