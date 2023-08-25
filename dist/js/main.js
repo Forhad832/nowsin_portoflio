@@ -88,22 +88,6 @@ const allWorkImage = (items) =>{
    
  });
  allWorkImage(categories);
-// const ShowCategoryWiseAllWorkImage = (project) =>{
-   
-//     const allwork = document.getElementById('allWork');
-//     project.map((work)=>{
-//         const workDiv = document.createElement('div');
-//         workDiv.innerHTML = `
-//           <img src="${work.image}" alt="project_image">
-//         `;
-//         allwork.appendChild(workDiv);
-        
-//     })
-   
-// };
-
-
-
 
 
 
@@ -144,6 +128,7 @@ const recentWorks = () => {
 
 
 function aboutMore(id){
+   
     document.getElementById('popup').style.display = 'block';
     recent.map((item)=>{
        
@@ -157,19 +142,7 @@ function aboutMore(id){
     })
 };
 
-// function add (){
-//     const popcontainer = document.getElementById('popcontainer');
 
-//     const div = `
-    
-//     <div id="popup" class="hidden absolute top-[50%] left-[50%] transform-[translate (-50%,-50%)] w-1/3 mx-auto text-center text-[#010313] bg-white shadow-lg p-4">
-//                     <h4>project Name</h4>
-//                     <h4>project Lorem ipsum dolor sit amet consectetur adipisicing elit. At dignissimos est quia fugiat consequuntur magnam, fugit placeat repudiandae eum perspiciatis!</h4>
-//                     <button id="closebtn" class="bg-pink-500 py-1 font-medium text-white px-3">close</button>
-//                 </div>
-//     `;
-//     popcontainer.appendChild(div);
-// }
 document.getElementById('closebtn').addEventListener('click', function(){
     document.getElementById('popup').style.display = 'none';
 })
@@ -179,7 +152,7 @@ recentWorks();
 const swipperSlider = () =>{
     document.getElementById('swipper_slider').innerHTML = 
     clients.map((client)=>{
-        const {id,name,country,text,images} = client;
+        const {name,country,text,images} = client;
         return(
             
             `
