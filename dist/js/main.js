@@ -25,7 +25,7 @@ showHaradSkill();
 
 document.getElementById('bar').addEventListener('click', function() {
 	const nav_content = document.getElementById('nav_content');
-	nav_content.classList.toggle('opactity')
+	nav_content.classList.toggle('bar')
 });
 
 
@@ -69,8 +69,8 @@ const allWorkImage = (items) => {
 		items.map((work) => {
 			return (
 				`<div class='project overflow-hidden'> 
-            <img class='hover:scale-150 transition hover:duration-700 ease-in-out ' src="${work.image}" alt="project_image">
-            </div>`
+                <img class='hover:scale-150 mx-auto w-72 md:w-fit transition hover:duration-700 ease-in-out ' src="${work.image}" alt="project_image">
+                </div>`
 			);
 
 		}).join('');
@@ -119,11 +119,11 @@ const recentWorks = () => {
 		const newRecenet = document.createElement('div');
 		newRecenet.innerHTML =
 			`
-        <div class="p-8 relative h-full w-full ">
-        <img  class="w-full" src="${work.img}" alt="recetn-work">
-        
-        <button id="btn" class='absolute bg-gradient-to-r hover:from-pink-500 hover:to-purple-500 bg-neutral-300 px-4 py-2   border-2 border-[#150f2d] top-[50%] left-[50%]  text-[#150f2d] flex items-center justify-center hover:border-0 hover:text-white rounded-md' onclick="aboutMore(${work.id})">About More...</button>
-        </div>
+			<div class="p-8 relative h-full w-full ">
+			<img  class="w-full" src="${work.img}" alt="recetn-work">
+			
+			<button id="btn" class='absolute bg-gradient-to-r hover:from-pink-500 hover:to-purple-500 bg-neutral-300 px-4 py-2   border-2 border-[#150f2d] top-[50%] left-[50%]  text-[#150f2d] flex items-center justify-center hover:border-0 hover:text-white rounded-md' onclick="aboutMore(${work.id})">About More...</button>
+			</div>
         `;
 		recentWorkContainer.appendChild(newRecenet);
 	})
