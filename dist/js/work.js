@@ -5,22 +5,22 @@ const works = [
         image:'./images/Illustration/1-01.jpg'
     },
     {
-        id:1,
+        id:2,
         category:'illustration ',
         image:'./images/Illustration/1-06.jpg'
     },
     {
-        id:5,
+        id:3,
         category:'Social Media Post Design',
         image:'./images/Social Media Post Design/1-01.jpg'
     },
     {
-        id:3,
+        id:4,
         category :'Banner Design',
         image:'./images/Banner Design/banner-02.jpg'
     },
     {
-        id:3,
+        id:5,
         category :'Banner Design',
         image:'./images/Banner Design/banner-03.jpg'
     },
@@ -30,479 +30,479 @@ const works = [
         image:'./images/Social Media Post Design/1-02.jpg'
     },
     {
-        id:1,
+        id:6,
         category:'illustration ',
         image:'./images/Illustration/1-07.jpg'
     },
    
     {
-        id:4,
+        id:7,
         category:'Logo Design',
         image:'./images/Logo Design/1-02.jpg'
     },
     {
-        id:4,
+        id:8,
         category:'Logo Design',
         image:'./images/Logo Design/1-03.jpg'
     },
     {
-        id:5,
+        id:9,
         category:'Flyer Design',
         image:'./images/flyer design/1-02.jpg'
     },
     {
-        id:5,
+        id:10,
         category:'Flyer Design',
         image:'./images/flyer design/1-03.jpg'
     },
     {
-        id:5,
+        id:11,
         category:'Manipulation',
         image:'./images/Manipulation/1-01.jpg'
     },
     {
-        id:5,
+        id:12,
         category:'Manipulation',
         image:'./images/Manipulation/1-02.jpg'
     },
     {
-        id:5,
+        id:13,
         category:'Flyer Design',
         image:'./images/flyer design/1-04.jpg'
     },
     {
-        id:4,
+        id:14,
         category:'Logo Design',
         image:'./images/Logo Design/1-04.jpg'
     },
     {
-        id:3,
+        id:15,
         category :'Banner Design',
         image:'./images/Banner Design/banner-04.jpg'
     },
     {
-        id:5,
+        id:16,
         category:'Stationery Design',
         image:'./images/Stationery design/Stationery Design-02.jpg'
     },
     {
-        id:5,
+        id:17,
         category:'Social Media Post Design',
         image:'./images/Social Media Post Design/1-03.jpg'
     },
     {
-        id:5,
+        id:18,
         category:'Social Media Post Design',
         image:'./images/Social Media Post Design/1-04.jpg'
     },
     {
-        id:2,
+        id:19,
         category:'T-Shirt',
         image:'./images/T-shirt design/1-02.jpg'
     },
     {
-        id:2,
+        id:20,
         category:'T-Shirt',
         image:'./images/T-shirt design/1-03.jpg'
     },
     {
-        id:5,
+        id:21,
         category:'Stationery Design',
         image:'./images/Stationery design/Stationery Design-03.jpg'
     },
     {
-        id:5,
+        id:22,
         category:'Stationery Design',
         image:'./images/Stationery design/Stationery Design-04.jpg'
     },
     {
-        id:2,
+        id:23,
         category:'T-Shirt',
         image:'./images/T-shirt design/1-01.jpg'
     },
     {
-        id:1,
+        id:24,
         category:'illustration ',
         image:'./images/Illustration/1-02.jpg'
     },
     {
-        id:1,
+        id:25,
         category:'illustration ',
         image:'./images/Illustration/1-03.jpg'
     },
     {
-        id:1,
+        id:26,
         category:'illustration ',
         image:'./images/Illustration/1-04.jpg'
     },
     {
-        id:1,
+        id:27,
         category:'illustration ',
         image:'./images/Illustration/1-05.jpg'
     },
     
     {
-        id:1,
+        id:28,
         category:'illustration ',
         image:'./images/Illustration/1-08.jpg'
     },
     {
-        id:1,
+        id:29,
         category:'illustration ',
         image:'./images/Illustration/1-09.jpg'
     },
     {
-        id:1,
+        id:30,
         category:'illustration ',
         image:'./images/Illustration/1-10.jpg'
     },
     {
-        id:1,
+        id:31,
         category:'illustration ',
         image:'./images/Illustration/1-11.jpg'
     },
     
     {
-        id:2,
+        id:32,
         category:'T-Shirt',
         image:'./images/T-shirt design/1-01.jpg'
     },
     
     {
-        id:2,
+        id:33,
         category:'T-Shirt',
         image:'./images/T-shirt design/1-04.jpg'
     },
     {
-        id:2,
+        id:34,
         category:'T-Shirt',
         image:'./images/T-shirt design/1-05.jpg'
     },
     {
-        id:2,
+        id:35,
         category:'T-Shirt',
         image:'./images/T-shirt design/1-06.jpg'
     },
     {
-        id:2,
+        id:36,
         category:'T-Shirt',
         image:'./images/T-shirt design/1-07.jpg'
     },
     {
-        id:2,
+        id:37,
         category:'T-Shirt',
         image:'./images/T-shirt design/1-08.jpg'
     },
     {
-        id:2,
+        id:38,
         category:'T-Shirt',
         image:'./images/T-shirt design/1-09.jpg'
     },
     {
-        id:2,
+        id:39,
         category:'T-Shirt',
         image:'./images/T-shirt design/1-10.jpg'
     },
     {
-        id:2,
+        id:40,
         category:'T-Shirt',
         image:'./images/T-shirt design/1-11.jpg'
     },
     {
-        id:2,
+        id:41,
         category:'T-Shirt',
         image:'./images/T-shirt design/1-12.jpg'
     },
     {
-        id:2,
+        id:42,
         category:'T-Shirt',
         image:'./images/T-shirt design/1-13.jpg'
     },
     {
-        id:2,
+        id:43,
         category:'T-Shirt',
         image:'./images/T-shirt design/1-14.jpg'
     },
     {
-        id:2,
+        id:44,
         category:'T-Shirt',
         image:'./images/T-shirt design/1-15.jpg'
     },
     {
-        id:2,
+        id:45,
         category:'T-Shirt',
         image:'./images/T-shirt design/1-15.jpg'
     },
     {
-        id:3,
+        id:46,
         category :'Banner Design',
         image:'./images/Banner Design/banner-01.jpg'
     },
    
     {
-        id:3,
+        id:47,
         category :'Banner Design',
         image:'./images/Banner Design/banner-05.jpg'
     },
     {
-        id:3,
+        id:48,
         category :'Banner Design',
         image:'./images/Banner Design/banner-06.jpg'
     },
     {
-        id:3,
+        id:49,
         category :'Banner Design',
         image:'./images/Banner Design/banner-07.jpg'
     },
     {
-        id:3,
+        id:50,
         category :'Banner Design',
         image:'./images/Banner Design/banner-08.jpg'
     },
     {
-        id:3,
+        id:51,
         category :'Banner Design',
         image:'./images/Banner Design/banner-09.jpg'
     },
     {
-        id:4,
+        id:52,
         category:'Logo Design',
         image:'./images/Logo Design/1-01.jpg'
     },
     {
-        id:4,
+        id:53,
         category:'Logo Design',
         image:'./images/Logo Design/1-02.jpg'
     },
     {
-        id:4,
+        id:54,
         category:'Logo Design',
         image:'./images/Logo Design/1-03.jpg'
     },
     {
-        id:4,
+        id:55,
         category:'Logo Design',
         image:'./images/Logo Design/1-04.jpg'
     },
     {
-        id:4,
+        id:56,
         category:'Logo Design',
         image:'./images/Logo Design/1-05.jpg'
     },
     {
-        id:4,
+        id:57,
         category:'Logo Design',
         image:'./images/Logo Design/1-06.jpg'
     },
     {
-        id:4,
+        id:58,
         category:'Logo Design',
         image:'./images/Logo Design/1-07.jpg'
     },
     {
-        id:4,
+        id:59,
         category:'Logo Design',
         image:'./images/Logo Design/1-08.jpg'
     },
     {
-        id:4,
+        id:60,
         category:'Logo Design',
         image:'./images/Logo Design/1-09.jpg'
     },
     {
-        id:4,
+        id:61,
         category:'Logo Design',
         image:'./images/Logo Design/1-10.jpg'
     },
     {
-        id:4,
+        id:62,
         category:'Logo Design',
         image:'./images/Logo Design/1-11.jpg'
     },
     {
-        id:4,
+        id:63,
         category:'Logo Design',
         image:'./images/Logo Design/1-12.jpg'
     },
     {
-        id:4,
+        id:64,
         category:'Logo Design',
         image:'./images/Logo Design/1-13.jpg'
     },
     {
-        id:4,
+        id:65,
         category:'Logo Design',
         image:'./images/Logo Design/1-14.jpg'
     },
     {
-        id:4,
+        id:66,
         category:'Logo Design',
         image:'./images/Logo Design/1-15.jpg'
     },
     {
-        id:4,
+        id:67,
         category:'Logo Design',
         image:'./images/Logo Design/1-16.jpg'
     },
     {
-        id:5,
+        id:68,
         category:'Flyer Design',
         image:'./images/flyer design/1-01.jpg'
     },
     {
-        id:5,
+        id:69,
         category:'Flyer Design',
         image:'./images/flyer design/1-02.jpg'
     },
     {
-        id:5,
+        id:70,
         category:'Flyer Design',
         image:'./images/flyer design/1-03.jpg'
     },
     {
-        id:5,
+        id:71,
         category:'Flyer Design',
         image:'./images/flyer design/1-04.jpg'
     },
     {
-        id:5,
+        id:72,
         category:'Flyer Design',
         image:'./images/flyer design/1-05.jpg'
     },
     {
-        id:5,
+        id:73,
         category:'Flyer Design',
         image:'./images/flyer design/1-06.jpg'
     },
     {
-        id:5,
+        id:74,
         category:'Flyer Design',
         image:'./images/flyer design/1-07.jpg'
     },
     {
-        id:5,
+        id:75,
         category:'Flyer Design',
         image:'./images/flyer design/1-08.jpg'
     },
     {
-        id:5,
+        id:76,
         category:'Flyer Design',
         image:'./images/flyer design/1-09.jpg'
     },
     {
-        id:5,
+        id:77,
         category:'Flyer Design',
         image:'./images/flyer design/1-10.jpg'
     },
     {
-        id:5,
+        id:78,
         category:'Flyer Design',
         image:'./images/flyer design/1-11.jpg'
     },
     {
-        id:5,
+        id:79,
         category:'Flyer Design',
         image:'./images/flyer design/1-12.jpg'
     },
     {
-        id:5,
+        id:80,
         category:'Flyer Design',
         image:'./images/flyer design/1-13.jpg'
     },
     {
-        id:5,
+        id:81,
         category:'Flyer Design',
         image:'./images/flyer design/1-14.jpg'
     },
     {
-        id:5,
+        id:82,
         category:'Flyer Design',
         image:'./images/flyer design/1-15.jpg'
     },
     {
-        id:5,
+        id:83,
         category:'Manipulation',
         image:'./images/Manipulation/1-01.jpg'
     },
     {
-        id:5,
+        id:84,
         category:'Manipulation',
         image:'./images/Manipulation/1-02.jpg'
     },
     {
-        id:5,
+        id:85,
         category:'Manipulation',
         image:'./images/Manipulation/1-03.jpg'
     },
     {
-        id:5,
+        id:86,
         category:'Manipulation',
         image:'./images/Manipulation/1-04.jpg'
     },
     {
-        id:5,
+        id:87,
         category:'Manipulation',
         image:'./images/Manipulation/1-05.jpg'
     },
     {
-        id:5,
+        id:88,
         category:'Social Media Post Design',
         image:'./images/Social Media Post Design/1-01.jpg'
     },
     {
-        id:5,
+        id:89,
         category:'Social Media Post Design',
         image:'./images/Social Media Post Design/1-02.jpg'
     },
     
     {
-        id:5,
+        id:90,
         category:'Social Media Post Design',
         image:'./images/Social Media Post Design/1-05.jpg'
     },
     {
-        id:5,
+        id:91,
         category:'Social Media Post Design',
         image:'./images/Social Media Post Design/1-06.jpg'
     },
     {
-        id:5,
+        id:92,
         category:'Social Media Post Design',
         image:'./images/Social Media Post Design/1-07.jpg'
     },
     {
-        id:5,
+        id:93,
         category:'Social Media Post Design',
         image:'./images/Social Media Post Design/1-08.jpg'
     },
     {
-        id:5,
+        id:94,
         category:'Social Media Post Design',
         image:'./images/Social Media Post Design/1-09.jpg'
     },
     {
-        id:5,
+        id:95,
         category:'Social Media Post Design',
         image:'./images/Social Media Post Design/1-10.jpg'
     },
     {
-        id:5,
+        id:96,
         category:'Social Media Post Design',
         image:'./images/Social Media Post Design/1-11.jpg'
     },
     {
-        id:5,
+        id:97,
         category:'Social Media Post Design',
         image:'./images/Social Media Post Design/1-12.jpg'
     },
     {
-        id:5,
+        id:98,
         category:'Stationery Design',
         image:'./images/Stationery design/Stationery Design-01.jpg'
     },
     
     {
-        id:5,
+        id:99,
         category:'Stationery Design',
         image:'./images/Stationery design/Stationery Design-05.jpg'
     }
