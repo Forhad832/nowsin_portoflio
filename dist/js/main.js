@@ -16,7 +16,7 @@ const showHaradSkill = () => {
 		newDiv.classList.add('p-2');
 		newDiv.classList.add('rounded-lg');
 		newDiv.innerHTML = `
-        <h3 class="text-xs  lg:text-2xl font-medium mb-3 text-white">${skill.text}</h3>
+		<h3 class="text-xs  md:text-xl font-medium mb-0 p-1 md:p-2 text-white">${skill.text}</h3>
         `;
 		hardSkillContainer.appendChild(newDiv)
 	})
