@@ -70,8 +70,8 @@ const allWorkImage = (items) => {
 		items.map((work) => {
 			return (
 				`<div class='project overflow-hidden'> 
-                <img class='hover:scale-150 mx-auto w-72 md:w-full transition hover:duration-700 ease-in-out ' src="${work.image}" alt="project_image">
-                </div>`
+				<img class='hover:scale-150 mx-auto w-72 md:w-full transition hover:duration-700 ease-in-out ' src="${work.image}" alt="project_image">
+				</div>`
 			);
 
 		}).join('');
